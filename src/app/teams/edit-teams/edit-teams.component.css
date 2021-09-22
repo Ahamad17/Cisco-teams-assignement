@@ -1,0 +1,62 @@
+.footerButtonSection button {
+  float: right;
+}
+
+.message {
+  display: flex;
+  height: 100%;
+}
+
+.message-container {
+  height: 100%;
+}
+
+.message i {
+  font-size: 2em;
+  margin: auto 0;
+}
+
+.message p {
+  margin-left: 10px;
+  margin-bottom: 0em;
+  margin: auto 0 auto 10px;
+}
+
+h5 {
+  line-height: 2.5;
+  padding-left: 1em;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  z-index: 10000;
+}
+
+.header {
+  background-color: var(--dt-color-primary, #0096d6);
+  color: white;
+}
+
+.body {
+  margin: 1em;
+}
+
+.footer {
+  margin: 0 1em 1em 1em;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  border: 0;
+  padding: 0;
+  max-width: 60%;
+  width: max-content;
+}
+

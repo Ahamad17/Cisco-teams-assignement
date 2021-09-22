@@ -1,0 +1,11 @@
+.addButton {
+  float: right;
+}
+
+.deleteButton {
+  color: red;
+}
+
+.deleteButton, .addButton, .editButton {
+  cursor: pointer;
+}
